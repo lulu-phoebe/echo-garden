@@ -1,0 +1,9 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="一触即生：划过发芽，点击盛放。由粒子构成的交互花园。"><title>一触即生 · GROW WHERE YOU TOUCH</title><link rel="stylesheet" href="style.css"><script defer src="p5.min.js"></script><script defer src="sketch.js?v=surface9"></script></head><body><main id="poster" aria-label="移动鼠标长出粒子花园，点击盛放大花"></main><div class="tools"><span id="phase">从左向右 · 唤醒花园</span><div class="actions"><button data-palette="0" aria-pressed="true" title="1 冷蓝">1 冷蓝</button><button data-palette="1" aria-pressed="false" title="2 薰紫">2 薰紫</button><button data-palette="2" aria-pressed="false" title="3 新绿">3 新绿</button><span class="divider"></span><button id="replay">清空重来 R</button><button id="pause">暂停 空格</button><button id="save">保存 S</button><button id="info" aria-expanded="false">说明 ↗</button></div></div><aside id="notes" hidden><button id="close" aria-label="关闭说明">×</button><small>ECHO / INTERACTIVE BOTANICAL STUDY</small><h1>一触即生。</h1><p>初始画面没有花。从左向右移动鼠标，逐步唤醒预先设计好的整座花园，约 0.4 秒盛放。已经长出的花永久保留，回划不会删除或重复种花。按 R 清空重来。</p><p>按 1 / 2 / 3 切换配色；R 清空重来；空格暂停；S 导出当前帧 PNG。触屏拖动和轻点同样可播种。</p><h2>配色出处</h2><p>冷蓝取自你选定的《一触即生》示意图与最初 Blue Flax 参考图的蓝白花瓣；薰紫是蓝紫色调的延伸；新绿来自 Blue Flax 的绿色花苞和黄绿花心。均为重新设计的配色，非精确取色。</p><p>01 冷蓝<small>#020408 / #9DCEFF / #1359E8 / #FFFFFF / #DAF1B9</small></p><p>02 薰紫<small>#020408 / #D1BCFF / #7650D8 / #FFFFFF / #F4E6B4</small></p><p>03 新绿<small>#020408 / #C9FCA4 / #488F72 / #FFFFFF / #F7EAB2</small></p><p>p5.js · 真正的程序粒子花园。每朵花以三维弯曲花瓣曲面投影采样，花脉、花蕊、茎叶均由粒子构成。鼠标从左向右唤醒，粒子聚合成花并保留；没有图片显现或图片贴片。</p></aside><div id="status" role="status" aria-live="polite"></div></body></html>
+
+
+
+
+
+
+
+
